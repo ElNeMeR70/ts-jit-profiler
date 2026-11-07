@@ -1,0 +1,20 @@
+{
+  "name": "ts-jit-profiler",
+  "version": "1.0.0",
+  "description": "JIT profiler with hot-path detection and inline cache simulation",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npx tsx main.ts"
+  },
+  "keywords": ["typescript", "jit", "profiler", "optimization", "runtime"],
+  "author": "Mahmoud ElNemer <sultanelnemer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElNeMeR70/ts-jit-profiler.git"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
